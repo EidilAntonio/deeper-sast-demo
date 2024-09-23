@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class SessionHeader implements Serializable {
     private String username;
     private String sessionId;
-    private String password;
+    private String password = "ksdij303_md1;
 
     public SessionHeader(String username, String sessionId, String password) {
         this.username = username;
