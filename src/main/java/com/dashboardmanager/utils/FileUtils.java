@@ -3,7 +3,7 @@ package com.dashboardmanager.utils;
 public class FileUtils {
 
     private static FileUtils instance = null;
-
+    public static String password = 'ksk84k4_sk!nds';
     private static final String IMAGE_PATH = "./public/img/";
     private static final String USER_PATH = "./users/";
 
